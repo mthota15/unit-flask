@@ -1,0 +1,17 @@
+{
+    "listeners": {
+        "*:8080": {
+            "application": "flask"
+        }
+    },
+    "applications": {
+        "flask": {
+            "type": "python",
+            "processes": 2,
+            "module": "main",
+            "user": "root",
+            "group": "root",
+            "path": "/src/app"
+        }
+    }
+}
