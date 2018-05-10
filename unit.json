@@ -8,10 +8,8 @@
         "flask": {
             "type": "python",
             "processes": 2,
-            "module": "main",
-            "user": "root",
-            "group": "root",
-            "path": "/src/app"
+            "path": ".",
+            "module": "app"
         }
     }
 }
